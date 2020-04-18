@@ -1,0 +1,14 @@
+@font-face {
+    src: url(../FONTS/IRANSansWeb_Bold.ttf);
+    font-family: "iranSans";
+}
+@font-face {
+    src: url(../FONTS/yekannumbers-regular.woff);
+    font-family: "Yekan";
+}
+.Yekan {
+    font-family: "Yekan";
+}
+.IranSans {
+    font-family: "iranSans";
+}
