@@ -223,4 +223,8 @@ a:hover{
 
 .sabtt{
 	margin-top: 10px;
+	margin-right: 20px;
+}
+.btn{
+	margin-left: -20px;
 }
