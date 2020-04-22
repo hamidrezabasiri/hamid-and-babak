@@ -20,7 +20,9 @@
 .lightblue {
     color: lightblue;
 }
-
+.displayNone {
+    display: none;
+}
 /* header */
 
 header {
@@ -387,7 +389,7 @@ footer {
     background-color: rgb(226, 224, 224);
 }
 
-.filtering{
+.filtering {
     margin-top: 100px;
 }
 
@@ -400,15 +402,15 @@ footer {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .3s ease;
+    transition: 0.3s ease;
     background-color: rgb(21, 160, 214);
-  }
-  
-  .container:hover .overlay {
+}
+
+.container:hover .overlay {
     opacity: 0.7;
-  }
-  
-  .icon {
+}
+
+.icon {
     color: white;
     font-size: 100px;
     position: absolute;
@@ -417,8 +419,8 @@ footer {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
-  .fa-user:hover {
+}
+
+.fa-user:hover {
     color: #eee;
-  }
+}

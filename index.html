@@ -154,13 +154,13 @@
                 line-height: 300px;
                 text-align: center;
                 margin: 2px;
-                display: none;
+                /* display: none; */
               }
               
               .show {
                 display: block;
               }
-              }
+              
               
               /* Style the buttons */
               .btn {
@@ -196,38 +196,53 @@
               </style>
               <body>
               
-              
               <div id="myBtnContainer" class="filtering" style="text-align:center;">
-                <button class="btn" onclick="filterSelection('fruits')">منظره</button>
-                <button class="btn" onclick="filterSelection('cars')">طبیعت</button>
-                <button class="btn" onclick="filterSelection('animals')">چهره</button>
-                <button class="btn active" onclick="filterSelection('all')">نمایش همه</button>
+                <!-- اینها رو لطفا به دکمه سابمیت تبدیل کن خودم بقیه کاراشو ردیف می کنم -->
+                <button class="btn" onclick="filtering(event, 'landscape')">منظره</button>
+                <button class="btn" onclick="filtering(event, 'nature')">طبیعت</button>
+                <button class="btn" onclick="filtering(event, 'face')">چهره</button>
+                <button class="btn active" onclick="filtering(event, 'all')">نمایش همه</button>
               </div>
               
               <div class="container lll" >
-                <div  class="filterDiv cars aghababak"><img class="aghababakk" src="./img/4.jpg" alt=""></div>
-                <div  class="filterDiv animals aghababak"><img class="aghababakk" src="./img/4.jpg" alt=""></div>
-                <div  class="filterDiv cars aghababak"><img class="aghababakk" src="./img/4.jpg" alt=""></div>
-                <div  class="filterDiv cars aghababak"><img class="aghababakk" src="./img/4.jpg" alt=""></div>
-                <div  class="filterDiv canimals aghababak"><img class="aghababakk" src="./img/4.jpg" alt=""></div>
-                <div  class="filterDiv animals aghababak"><img class="aghababakk" src="./img/4.jpg" alt=""></div>
-                <div  class="filterDiv fruits aghababak"><img class="aghababakk" src="./img/4.jpg" alt=""></div>
-                <div  class="filterDiv fruits aghababak"><img class="aghababakk" src="./img/4.jpg" alt=""></div>
-                <div  class="filterDiv fruits aghababak"><img class="aghababakk" src="./img/4.jpg" alt=""></div>
+                <!-- اینجا چون عکس هات یک شکل هستند سخت می شه متوجه شد که کدوم گروه داره نمایش داده می شه. ولی داره درست کار می کنه. -->
+                <div  class="filterDiv landscape aghababak "><img class="aghababakk" src="./img/4.jpg" alt=""></div>
+                <div  class="filterDiv nature aghababak "><img class="aghababakk" src="./img/4.jpg" alt=""></div>
+                <div  class="filterDiv landscape aghababak "><img class="aghababakk" src="./img/4.jpg" alt=""></div>
+                <div  class="filterDiv landscape aghababak "><img class="aghababakk" src="./img/4.jpg" alt=""></div>
+                <div  class="filterDiv nature aghababak "><img class="aghababakk" src="./img/4.jpg" alt=""></div>
+                <div  class="filterDiv nature aghababak "><img class="aghababakk" src="./img/4.jpg" alt=""></div>
+                <div  class="filterDiv face aghababak "><img class="aghababakk" src="./img/4.jpg" alt=""></div>
+                <div  class="filterDiv face aghababak "><img class="aghababakk" src="./img/4.jpg" alt=""></div>
+                <div  class="filterDiv face aghababak "><img class="aghababakk" src="./img/4.jpg" alt=""></div>
               </div>
               
               <script>
-              filterSelection("all")
-              function filterSelection(c) {
-                var x, i;
-                x = document.getElementsByClassName("filterDiv");
-                if (c == "all") c = "";
-                for (i = 0; i < x.length; i++) {
-                  w3RemoveClass(x[i], "show");
-                  if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                // اینجا حالا این فانکشن رو نوشتیم ولی نمیخواد کلا این فانکشن رو پاک کن من خودم با بک اند ردیفش می کنم.
+                const filter_btn = document.querySelectorAll('div#myBtnContainer>button');
+                const painting_images = document.querySelectorAll('div.lll>div');
+
+                const filtering = (event, category)=>{
+                  for(let i = 0 ; i< filter_btn.length; i++){
+                    if(event.target === filter_btn[i]){
+                      filter_btn[i].classList.add('active');
+                    }else{
+                      filter_btn[i].classList.remove('active');
+                    }
+                    for(let s = 0 ; s<painting_images.length; s++){
+                      if(category === 'all'){
+                        painting_images[s].classList.remove('displayNone');
+                      }else{
+                        if(painting_images[s].classList.contains(category)){
+                          painting_images[s].classList.remove('displayNone');
+                        }else{
+                          painting_images[s].classList.add('displayNone');
+                        }
+                      }
+                    }
+                  }
                 }
-              }
-              
+                
               function w3AddClass(element, name) {
                 var i, arr1, arr2;
                 arr1 = element.className.split(" ");
