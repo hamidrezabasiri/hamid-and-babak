@@ -427,3 +427,16 @@ footer {
 .fa-user:hover {
     color: #eee;
 }
+
+body {
+    line-height: normal; /* default */
+    line-height: 2;
+    line-height: 3em;
+    line-height: 3rem;
+    line-height: 200%;
+    line-height: 20px;
+}
+.ohmygodd{
+    text-align: center;
+    margin-left: -30px;
+}
