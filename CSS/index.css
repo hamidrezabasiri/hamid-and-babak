@@ -402,12 +402,14 @@ footer {
     height: 100%;
     width: 100%;
     opacity: 0;
+    -webkit-transition: 0.3s ease;
     transition: 0.3s ease;
     background-color: rgb(21, 160, 214);
 }
 
-.container:hover .overlay {
+.container .overlay:hover {
     opacity: 0.7;
+    cursor: pointer;
 }
 
 .icon {
@@ -416,6 +418,7 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
