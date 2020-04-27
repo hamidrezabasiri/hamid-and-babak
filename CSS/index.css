@@ -50,7 +50,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: #e9e9e9;
+    background-image: linear-gradient(rgb(32, 13, 204), rgb(194, 19, 179));
 }
 
 .topnav a {
@@ -71,7 +71,7 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    border-bottom: 3px solid #38a4c5;
+    border-bottom: 3px solid #2d059b;
 }
 
 .topnav .search-container {
@@ -184,7 +184,7 @@ body {
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
-    background-color: rgb(9, 151, 170);
+    background-color: rgb(9, 12, 170);
 }
 
 img {
@@ -310,7 +310,7 @@ img {
 }
 
 .blue {
-    background-color: rgb(22, 164, 189);
+    background-color: rgb(9, 11, 151);
 }
 
 p {
@@ -328,7 +328,7 @@ h2 {
 }
 
 .ftt {
-    background: rgb(20, 130, 173);
+    background: rgb(43, 20, 173);
     padding: 8px 0;
 }
 
@@ -358,7 +358,7 @@ footer {
 }
 
 .salam:hover {
-    color: rgb(21, 151, 173);
+    color: rgb(21, 11, 155);
 }
 
 .by {
@@ -372,7 +372,7 @@ footer {
 }
 
 .salamm:hover {
-    color: rgb(21, 151, 173);
+    color: rgb(24, 10, 150);
     text-decoration: none;
 }
 
@@ -404,7 +404,7 @@ footer {
     opacity: 0;
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease;
-    background-color: rgb(21, 160, 214);
+    background-color: rgb(33, 4, 161);
 }
 
 .container .overlay:hover {
@@ -439,4 +439,32 @@ body {
 .ohmygodd{
     text-align: center;
     margin-left: -30px;
+}
+
+.bala{
+    background-image: linear-gradient(rgb(32, 13, 204), rgb(194, 19, 179));
+}
+
+.ashnayi{
+    background-image: linear-gradient(rgb(32, 13, 204), rgb(194, 19, 179));
+}
+
+.card{
+    background-image: linear-gradient(rgb(32, 13, 204), rgb(194, 19, 179));
+}
+
+.site-title{
+    color: black;
+}
+
+.bang{
+    color: black;
+}
+
+.goaway{
+    background-image: linear-gradient(rgb(32, 13, 204), rgb(194, 19, 179));
+}
+
+.ashnayi {
+    opacity: 0.7;
 }
