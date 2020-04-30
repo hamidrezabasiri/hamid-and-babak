@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+.container .dropdown-toggle,
+.container .dropdown-item {
+    font-size: 0.7em;
+}
+
+.header-links a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+.search-container {
+    padding: 14px 16px;
+}
+
+.header-search-form>input {
+    padding: 7px 8px;
+}
