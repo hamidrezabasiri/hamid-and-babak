@@ -44,11 +44,11 @@
             </div>
         </div>
         <div class="topnav">
-            <a href="index.html" class="ccc">خانه</a>
-            <a href="about.html" class="ccc">درباره ی من</a>
-            <a href="mypaintings.html" class="ccc">نقاشی های من</a>
-            <a href="abrang.html" class="ccc">نقاشی ابرنگ</a>
-            <a href="forosh.html" class="ccc">فروش</a>
+            <a href="index.php" class="ccc">خانه</a>
+            <a href="about.php" class="ccc">درباره ی من</a>
+            <a href="mypaintings.php" class="ccc">نقاشی های من</a>
+            <a href="abrang.php" class="ccc">نقاشی ابرنگ</a>
+            <a href="forosh.php" class="ccc">فروش</a>
             <div class="search-container">
               <form action="/action_page.php">
                 <button type="submit"><i class="fa fa-fw fa-search"></i></button>
@@ -477,16 +477,16 @@
           <h2 class="text-uppercase font-weight-bold">دسترسی </h2>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a href="#!">درباره ما</a>
+            <a href="about.php">درباره ما</a>
           </p>
           <p>
-            <a href="#!">ابرنگ</a>
+            <a href="abrang.php">ابرنگ</a>
           </p>
           <p>
-            <a href="#!">صفحه ی اصلی</a>
+            <a href="index.php">صفحه ی اصلی</a>
           </p>
           <p>
-            <a href="#!">خرید</a>
+            <a href="forosh.php">خرید</a>
           </p>
   
         </div>

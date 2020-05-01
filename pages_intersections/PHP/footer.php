@@ -74,16 +74,16 @@ function generate_footer(){
           <h2 class="text-uppercase font-weight-bold">دسترسی </h2>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a href="#!">درباره ما</a>
+            <a href="about.php">درباره ما</a>
           </p>
           <p>
-            <a href="#!">ابرنگ</a>
+            <a href="abrang.php">ابرنگ</a>
           </p>
           <p>
-            <a href="#!">صفحه ی اصلی</a>
+            <a href="index.php">صفحه ی اصلی</a>
           </p>
           <p>
-            <a href="#!">خرید</a>
+            <a href="forosh.php">خرید</a>
           </p>
         </div>    
         <!-- Grid column -->

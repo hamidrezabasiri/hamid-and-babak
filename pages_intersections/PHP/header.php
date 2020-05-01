@@ -32,11 +32,11 @@ function generate_header(){
             </div>
         </div>
         <div class="topnav">
-            <a href="index.html" class="ccc">خانه</a>
-            <a href="about.html" class="ccc">درباره ی من</a>
-            <a href="mypaintings.html" class="ccc">نقاشی های من</a>
-            <a href="abrang.html" class="ccc">نقاشی ابرنگ</a>
-            <a href="forosh.html" class="ccc">فروش</a>
+            <a href="index.php" class="ccc">خانه</a>
+            <a href="about.php" class="ccc">درباره ی من</a>
+            <a href="mypaintings.php" class="ccc">نقاشی های من</a>
+            <a href="abrang.php" class="ccc">نقاشی ابرنگ</a>
+            <a href="forosh.php" class="ccc">فروش</a>
             <div class="search-container">
               <form class="header-search-form d-flex flex-row-reverse" action="/action_page.php">
                 <input class="text-right p-0 m-0" type="text" class="ggg" placeholder="...جستجو" name="search">
