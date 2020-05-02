@@ -6,21 +6,65 @@ header {
     background-color: var(--primary-color);
 }
 
-.container .dropdown-toggle,
-.container .dropdown-item {
-    font-size: 0.7em;
+.site-title {
+    color: blue;
 }
 
 .header-links a {
     font-size: 0.9em;
     text-decoration: none;
+    color: blue;
+}
+
+.bala {
+    background-color: bisque;
+}
+
+.topnav {
+    background-color: lightblue;
+}
+
+.topnav a {
+    float: right;
+    display: block;
     color: white;
+    text-align: center;
+    padding: 1.5rem;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+
+.topnav a:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-bottom: 5px solid red;
+}
+
+
+.container .dropdown-toggle,
+.container .dropdown-item {
+    font-size: 0.7em;
 }
 
 .search-container {
-    padding: 14px 16px;
+    padding: 1.25rem;
 }
 
 .header-search-form>input {
     padding: 7px 8px;
+}
+
+.currency {
+    color: black;
+    background-color: white;
+}
+
+.currency:hover {
+    color: white;
+    background-color: rgb(152, 15, 170);
 }

@@ -8,7 +8,7 @@ function generate_header(){
             <div class="row">
                 <div class="col-md-4 col-sm-12 col-12">
                     <div class="btn-group iranSans">
-                        <button class="btn border dropdown-toggle my-md-4 my-2 text-white" 
+                        <button class="currency btn border dropdown-toggle my-md-4 my-2 py-2 px-3" 
                         data-toggle="dropdown" 
                         aria-haspopup="true" 
                         aria-expanded="false"
@@ -21,7 +21,7 @@ function generate_header(){
                     </div>
                 </div>
                 <div class="col-md-4 col-12 text-center">
-                    <h1 class="my-md-3 site-title">فروشگاه انلاین نقاشی</h1>
+                    <h1 class="my-md-3 site-title">فروشگاه آنلاین نقاشی</h1>
                 </div>
                 <div class="col-md-4 col-12 text-right">
                     <p class="my-md-4 header-links">
