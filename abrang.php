@@ -62,8 +62,6 @@
         opacity: 0.7;
     }
   </style>
-</head>
-<body>
     <h1 class="yat text-center"> اولین نقاشی ها ابرنگ من </h1>
   <!-- Swiper -->
   <div class="swiper-container swiper-container-h">
@@ -151,8 +149,6 @@
                     opacity: 0.7;
                 }
               </style>
-            </head>
-            <body>
                 <h1 class="yat text-center">  نقاشی های بعد ابرنگ من </h1>
               <!-- Swiper -->
               <div class="swiper-container swiper-container-h">
@@ -239,8 +235,6 @@
         opacity: 0.7;
     }
   </style>
-</head>
-<body>
     <h1 class="yat text-center"> نقاشی های حرفه ای ابرنگ من </h1>
   <!-- Swiper -->
   <div class="swiper-container swiper-container-h">

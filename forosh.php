@@ -54,8 +54,6 @@
             align-items: center;
           }
         </style>
-      </head>
-      <body>
         <h1 class="text-center">ابرنگ</h1>
         <!-- Swiper -->
         <div class="swiper-container swiper1">
@@ -176,8 +174,6 @@
                 align-items: center;
               }
             </style>
-          </head>
-          <body>
             <h1 class="text-center">طبیعت</h1>
             <!-- Swiper -->
             <div class="swiper-container swiper1">
@@ -297,8 +293,6 @@
       align-items: center;
     }
   </style>
-</head>
-<body>
   <h1 class="text-center">چهره</h1>
   <!-- Swiper -->
   <div class="swiper-container swiper1">

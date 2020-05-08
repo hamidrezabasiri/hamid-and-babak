@@ -69,7 +69,7 @@
             </a>
           </div>
 
-            <div class="container ashnayi">
+            <div class="container introduction">
                 <h1 class="pt-4">آشنایی با نقاشی</h1>
                 <p class="text-justify direction-rtl">«نقاش» به اینجا تغییرمسیر دارد. برای دیگر کاربردها، نقاش (ابهام‌زدایی) را مشاهده کنید.
                     مونالیزا اثر لئوناردو دا وینچی متعلق به دوره رنسانس.
@@ -113,43 +113,7 @@
                   <button class="button" style="background-color:rgb(13, 17, 233)">ادامه مطالب</button>
                 </div>
               </div>
-            </div>
-            
-            <div class="container">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-            
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img class="dddd" src="./img/4.jpg" alt="Los Angeles" style="width:100%;">
-                  </div>
-            
-                  <div class="item">
-                    <img class="dddd" src="./img/4.jpg" alt="Chicago" style="width:100%;">
-                  </div>
-                
-                  <div class="item">
-                    <img class="dddd" src="./img/4.jpg" alt="New york" style="width:100%;">
-                  </div>
-                </div>
-            
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>              
+            </div> 
               <div id="myBtnContainer" class="filtering" style="text-align:center;">
                 <!-- اینها رو لطفا به دکمه سابمیت تبدیل کن خودم بقیه کاراشو ردیف می کنم -->
                 <button class="btn" onclick="filtering(event, 'landscape')">منظره</button>
@@ -189,48 +153,54 @@
           </div>
           <br>
         </main>
-          <!-- Demo styles -->
+
+  <!-- Demo styles -->
           
+  <style>
+    body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+
+    }
+  </style>
   <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(img/4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./img/4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./img/4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./img/4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./img/4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./img/4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./img/4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./img/4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./img/4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./img/4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./img/4.jpg)"></div>
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
   </div>
 
   <!-- Swiper JS -->
-  <script src="js/swiper.min.js"></script>
+  <script src="./js/swiper.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows : true,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
-  </script>
+ 
+
   
     <!-- footer -->
     <?php generate_footer(); ?>

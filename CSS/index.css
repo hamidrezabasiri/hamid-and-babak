@@ -41,11 +41,6 @@ header {
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .topnav {
     overflow: hidden;
     /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 13, 204)), to(rgb(194, 19, 179)));
@@ -99,23 +94,7 @@ body {
     }
 }
 
-.ccc {
-    margin-right: 10px;
-}
-
-.ccc:hover {
-    text-decoration: none;
-}
-
-.ggg {
-    margin-left: 20px;
-}
-
-.fa {
-    width: 50px;
-}
-
-.ashnayi {
+.introduction {
     background-color: rgb(255, 249, 247);
     border: 2px solid rgb(248, 253, 255);
     border-radius: 25px;
@@ -128,15 +107,7 @@ body {
     margin-top: 50px;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-}
-
-.rrr {
+.controlingpadandmargin {
     padding: 64px;
     font-size: 1rem;
 }
