@@ -25,8 +25,8 @@ function generate_header(){
                 </div>
                 <div class="col-md-4 col-12 text-right">
                     <p class="my-md-4 header-links">
-                    <a href="singin.html" class="px-2 ccc bang text-b">ورود</a>
-                    <a href="sabtnam.html" class="px-1 ccc bang">ثبت نام</a>
+                    <a href="singin.php" class="px-2 ccc bang text-b">ورود</a>
+                    <a href="sabtnam.php" class="px-1 ccc bang">ثبت نام</a>
                     </p>
                 </div>
             </div>
