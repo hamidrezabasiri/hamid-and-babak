@@ -1,9 +1,6 @@
 <?php require 'pages_intersections/PHP/header.php'; ?>
 <?php require 'pages_intersections/PHP/footer.php'; ?>
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,11 +11,14 @@
     <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/font_imports.css">
-    <link rel="stylesheet" href="./CSS/swiper.min.css">
-    <link rel="stylesheet" href="./CSS/forosh.css">
+    <link rel="stylesheet" href="CSS/swiper.min.css">
+    <link rel="stylesheet" href="pages_intersections/CSS/header.css">
+    <link rel="stylesheet" href="pages_intersections/CSS/body.css">
+    <link rel="stylesheet" href="pages_intersections/CSS/footer.css">
+    <link rel="stylesheet" href="CSS/forosh.css">
     <title>فروش</title>
 </head>
-<body class="iranSans" style="background: url(./img/bgc2.jpg); background-repeat: no-repeat; background-attachment: fixed;">
+<body class="iranSans" style="background: url(img/bgc2.jpg); background-repeat: no-repeat; background-attachment: fixed;">
 <?php generate_header(); ?>
         <style>
           body {

@@ -5,6 +5,10 @@
     --text-color: #ff686b;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .primary-color {
     color: var(--primary-color);
 }
@@ -23,75 +27,6 @@
 
 .displayNone {
     display: none;
-}
-
-/* header */
-
-header {
-    background-color: var(--primary-color);
-}
-
-.container .dropdown-toggle,
-.container .dropdown-item {
-    font-size: 0.7em;
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-.topnav {
-    overflow: hidden;
-    /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 13, 204)), to(rgb(194, 19, 179)));
-    background-image: linear-gradient(rgb(32, 13, 204), rgb(194, 19, 179)); */
-}
-
-.topnav .search-container {
-    float: left;
-}
-
-.topnav input[type="text"] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-}
-
-.topnav .search-container button {
-    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-}
-
-.topnav .search-container button:hover {
-    background: #ccc;
-}
-
-@media screen and (max-width: 600px) {
-    .topnav .search-container {
-        float: none;
-    }
-
-    .topnav a,
-    .topnav input[type="text"],
-    .topnav .search-container button {
-        float: none;
-        display: block;
-        text-align: left;
-        width: 100%;
-        margin: 0;
-        padding: 14px;
-    }
-
-    .topnav input[type="text"] {
-        border: 1px solid #ccc;
-    }
 }
 
 .introduction {
@@ -334,9 +269,6 @@ footer {
     margin-left: -70px;
 }
 
-.cccccc {
-    background-color: rgb(226, 224, 224);
-}
 
 .filtering {
     margin-top: 100px;
@@ -351,7 +283,6 @@ footer {
     height: 100%;
     width: 100%;
     opacity: 0;
-    -webkit-transition: 0.3s ease;
     transition: 0.3s ease;
     background-color: rgb(33, 4, 161);
 }
@@ -367,7 +298,6 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
@@ -387,34 +317,18 @@ body {
     line-height: 20px;
 }
 
-.ohmygodd {
-    text-align: center;
-    margin-left: -30px;
-}
-
-/* .bala {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 13, 204)), to(rgb(194, 19, 179)));
-    background-image: linear-gradient(rgb(32, 13, 204), rgb(194, 19, 179));
-} */
 
 .ashnayi {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 13, 204)), to(rgb(194, 19, 179)));
     background-image: linear-gradient(rgb(32, 13, 204), rgb(194, 19, 179));
 }
 
 .card {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 13, 204)), to(rgb(194, 19, 179)));
     background-image: linear-gradient(rgb(32, 13, 204), rgb(194, 19, 179));
 }
 
 
 .bang {
     color: black;
-}
-
-.goaway {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 13, 204)), to(rgb(194, 19, 179)));
-    background-image: linear-gradient(rgb(32, 13, 204), rgb(194, 19, 179));
 }
 
 .ashnayi {
@@ -434,7 +348,6 @@ body {
 .show {
     display: block;
 }
-
 
 /* Style the buttons */
 .btn {
@@ -456,14 +369,9 @@ body {
 }
 
 .lll {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
     flex-flow: row wrap;
 }
 
@@ -479,11 +387,8 @@ body {
 
 .nnn {
     text-align: center;
-    display: -webkit-box;
     display: flex;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     margin-top: 100px;
 }
@@ -535,7 +440,6 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 211, 242, 0.5)), to(rgba(189, 204, 235, 0.5)));
     background-image: linear-gradient(rgba(247, 211, 242, 0.5), rgba(189, 204, 235, 0.5));
 }
 

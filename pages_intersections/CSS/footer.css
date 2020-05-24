@@ -1,0 +1,52 @@
+footer p,
+footer a {
+    color: rgb(190, 190, 192);
+    line-height: 2rem;
+}
+
+footer h2,
+footer h3 {
+    color: rgb(255, 255, 255);
+    line-height: 2rem;
+}
+
+footer h2 {
+    font-size: 18px;
+}
+
+footer>div.container>div.row>div>h2 {
+    position: relative;
+}
+
+footer>div.container>div.row>div>h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 1px solid yellowgreen;
+    width: 150px;
+}
+
+.top_section {
+    background-color: #3328c9;
+}
+
+.cccccc {
+    background-color: rgb(226, 224, 224);
+}
+
+.goaway {
+    background-image: linear-gradient(rgb(32, 13, 204), rgb(194, 19, 179));
+}
+
+.ohmygodd {
+    text-align: center;
+    margin-left: -30px;
+}
+
+@media screen and (max-width:768px) {
+    footer>div.container>div.row>div>h2::after {
+        width: 100%;
+    }
+}

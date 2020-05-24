@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="CSS/font_imports.css">
     <link rel="stylesheet" href="pages_intersections/CSS/header.css">
     <link rel="stylesheet" href="pages_intersections/CSS/body.css">
+    <link rel="stylesheet" href="pages_intersections/CSS/footer.css">
     <link rel="stylesheet" href="CSS/index.css">
       <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="CSS/swiper.min.css">

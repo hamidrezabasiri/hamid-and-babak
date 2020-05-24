@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="CSS/font_imports.css">
     <link rel="stylesheet" href="pages_intersections/CSS/header.css">
     <link rel="stylesheet" href="pages_intersections/CSS/body.css">
+    <link rel="stylesheet" href="pages_intersections/CSS/footer.css">
     <link rel="stylesheet" href="CSS/mypaintings.css">
     <title>نقاشی های من</title>
 </head>

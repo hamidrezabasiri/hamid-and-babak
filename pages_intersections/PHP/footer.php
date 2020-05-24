@@ -2,8 +2,8 @@
 
 function generate_footer(){
     echo    '
-    <footer class="page-footer font-small unique-color-dark cccccc goaway">
-    <div style="background-color: #3328c9;">
+    <footer class=" cccccc goaway">
+    <div class="top_section">
       <div class="container">
         <!-- Grid row-->
         <div class="row py-4 d-flex align-items-center">
@@ -14,23 +14,23 @@ function generate_footer(){
           <!-- Grid column -->
           <div class="col-md-6 col-lg-7 text-center text-md-right">
             <!-- Facebook -->
-            <a class="fb-ic">
+            <a class="fb-ic" href="#">
               <i class="fab fa-facebook-f white-text mr-4"> </i>
             </a>
             <!-- Twitter -->
-            <a class="tw-ic">
+            <a class="tw-ic" href="#">
               <i class="fab fa-twitter white-text mr-4"> </i>
             </a>
             <!-- Google +-->
-            <a class="gplus-ic">
+            <a class="gplus-ic" href="#">
               <i class="fab fa-google-plus-g white-text mr-4"> </i>
             </a>
             <!--Linkedin -->
-            <a class="li-ic">
+            <a class="li-ic" href="#">
               <i class="fab fa-linkedin-in white-text mr-4"> </i>
             </a>
             <!--Instagram-->
-            <a class="ins-ic">
+            <a class="ins-ic" href="#">
               <i class="fab fa-instagram white-text"> </i>
             </a>
           </div>
@@ -46,59 +46,56 @@ function generate_footer(){
         <!-- Grid column -->
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
-          <h2 class="text-uppercase font-weight-bold">نقاشی ابرنگ</h2>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <h2 class="text-uppercase font-weight-bold py-2">نقاشی ابرنگ</h2>
           <p class="ohmygodd">نقاشی ابرنگ نوعی از نقاشی است که در واقع یک نوع سبک هنری میباشد و نقاشی های ابرنگ توسط این سایت معرفی و به فروش میرسد</p>
         </div>    
         <!-- Grid column -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
-          <h2 class="text-uppercase font-weight-bold">محصولات</h2>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <h2 class="text-uppercase font-weight-bold py-2">محصولات</h2>
           <p>
-            <h4  href="#!">ابرنگ</h4>
+            <a  href="#">ابرنگ</a>
           </p>
           <p>
-            <h4  href="#!">چهره</h4>
+            <a  href="#">چهره</a>
           </p>
           <p>
-            <h4  href="#!">طبیعت</h4>
+            <a  href="#">طبیعت</a>
           </p>
           <p>
-            <h4  href="#!"> نقاشی</h4>
+            <a  href="#"> نقاشی</a>
           </p>
         </div>    
         <!-- Grid column -->
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
-          <h2 class="text-uppercase font-weight-bold">دسترسی </h2>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <h2 class="text-uppercase font-weight-bold py-2">دسترسی </h2>
           <p>
-            <a href="about.php">درباره ما</a>
+          <a href="index.php">خانه</a>
           </p>
           <p>
-            <a href="abrang.php">ابرنگ</a>
+            <a href="about.php">درباره من</a>
           </p>
           <p>
-            <a href="index.php">صفحه ی اصلی</a>
+            <a href="abrang.php">نقاشی های من</a>
           </p>
           <p>
-            <a href="forosh.php">خرید</a>
+            <a href="forosh.php">سفارش</a>
           </p>
         </div>    
         <!-- Grid column -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
-          <h2 class="text-uppercase font-weight-bold">کانتکت</h2>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <h2 class="text-uppercase font-weight-bold py-2">کانتکت</h2>
           <p>
-            <i  class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <a href="#" ><i class="fas fa-envelope mr-3"></i> info@example.com</a>
+          </p>
           <p>
-            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <a href="#" ><i class="fas fa-mobile mr-3"></i> +989126158210</a>
+          </p>
           <p>
-            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-          <p>
-            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            <a href="#" ><i class="fas fa-phone mr-3"></i> +982177991579</a>
+          </p>
         </div>
         <!-- Grid column -->
       </div>

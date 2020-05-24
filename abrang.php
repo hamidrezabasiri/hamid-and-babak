@@ -12,15 +12,18 @@
     <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/font_imports.css">
-    <link rel="stylesheet" href="./CSS/swiper.min.css">
-    <link rel="stylesheet" href="./CSS/abrang.css">
+    <link rel="stylesheet" href="CSS/swiper.min.css">
+    <link rel="stylesheet" href="pages_intersections/CSS/header.css">
+    <link rel="stylesheet" href="pages_intersections/CSS/body.css">
+    <link rel="stylesheet" href="pages_intersections/CSS/footer.css">
+    <link rel="stylesheet" href="CSS/abrang.css">
     <title>نقاشی ابرنگ</title>
 </head>
-<body class="iranSans" style="background: url(./img/bgc2.jpg); background-repeat: no-repeat; background-attachment: fixed;">
+<body class="iranSans" style="background: url(img/bgc2.jpg); background-repeat: no-repeat; background-attachment: fixed;">
         
 <?php generate_header(); ?>
         
-            <!-- Demo styles -->
+  <!-- Demo styles -->
   <style>
     html, body {
       position: relative;
