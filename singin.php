@@ -13,11 +13,11 @@
         <img class="wave" src="img/wave.png" />
         <div class="container">
             <div class="img">
-                <img src="./img/undraw_art_0tat (1).svg" />
+                <img src="img/undraw_art_0tat (1).svg" />
             </div>
             <div class="login-content">
-                <form action="index.html">
-                    <img src="./img/undraw_profile_pic_ic5t.svg" />
+                <form action="">
+                    <img src="img/undraw_profile_pic_ic5t.svg" />
                     <h2 class="title">خوش امدید</h2>
                     <div class="input-div one">
                         <div class="i">
@@ -37,12 +37,12 @@
                             <input placeholder="رمز عبور" type="password" class="input iranSans" />
                         </div>
                     </div>
-                    <a class="sabtt" href="forget.html">فراموش رمز عبور؟</a>
-                    <a href="sabtnam.html" class="qqq sabtt">ثبت نام</a>
+                    <a class="sabtt" href="forget.php">فراموش رمز عبور؟</a>
+                    <a href="sabtnam.php" class="qqq sabtt">ثبت نام</a>
                     <input type="submit" class="btn" value="ورود" />
                 </form>
             </div>
         </div>
-        <script type="text/javascript" src="./js/signin.js"></script>
+        <script type="text/javascript" src="js/signin.js"></script>
     </body>
 </html>

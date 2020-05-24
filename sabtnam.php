@@ -15,8 +15,8 @@
                 <img src="./img/undraw_art_lover_yjfr.svg" />
             </div>
             <div class="login-content">
-                <form action="index.html">
-                    <img src="./img/undraw_profile_pic_ic5t.svg" />
+                <form action="">
+                    <img src="img/undraw_profile_pic_ic5t.svg" />
                     <h2 class="title">ثبت نام</h2>
                     <div class="input-div one">
                         <div class="i">
@@ -54,7 +54,7 @@
                             <input placeholder="رمز عبور" type="password" class="input" />
                         </div>
                     </div>
-                    <a class="qqqqq" href="singin.html">ورود</a>
+                    <a class="qqqqq" href="singin.php">ورود</a>
                     <input type="submit" class="btn" value="ثبت نام" />
                 </form>
             </div>
